@@ -3,9 +3,8 @@ if (typeof kotlin === 'undefined') {
 }
 var KotlinHelloWorld2 = function (_, Kotlin) {
   'use strict';
-  var println = Kotlin.kotlin.io.println_s8jyv4$;
   function main(args) {
-    println('Hello World');
+    console.log('test3');
   }
   _.main_kand9s$ = main;
   main([]);
